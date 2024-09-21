@@ -4,23 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fcfdafdb-759d-4e7b-8195-7f65025dc62d" name="Changes" comment="3. Liskov Substitution done!">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunglp/interface_segregation/bad/OnlineCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunglp/interface_segregation/bad/RestaurantInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunglp/interface_segregation/good/OnlineCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunglp/interface_segregation/good/OrderInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunglp/interface_segregation/good/PaymentInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunglp/interface_segregation/good/WalkInCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunglp/interface_segregation/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunglp/liskov_subtitution/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunglp/open_closed/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunglp/single_responsibility/package-info.java" afterDir="false" />
+    <list default="true" id="fcfdafdb-759d-4e7b-8195-7f65025dc62d" name="Changes" comment="4.interface_segregation done! + refacetor package-info">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunglp/dependency_inversion/bad/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunglp/dependency_inversion/bad/Parent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunglp/dependency_inversion/good/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunglp/dependency_inversion/good/Child_1_Impl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunglp/dependency_inversion/good/Child_2_Impl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunglp/dependency_inversion/good/Parent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunglp/dependency_inversion/package-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hunglp/liskov_subtitution/bad/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hunglp/liskov_subtitution/good/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hunglp/open_closed/bad/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hunglp/open_closed/bad/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hunglp/open_closed/good/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hunglp/open_closed/good/Calculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,9 +23,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="package-info" />
       </list>
     </option>
   </component>
@@ -71,6 +64,26 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="Parent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hunglp.dependency_inversion.good.Parent" />
+      <module name="solid-principle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hunglp.dependency_inversion.good.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Parent" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -81,7 +94,7 @@
       <updated>1726912431866</updated>
       <workItem from="1726912432973" duration="989000" />
       <workItem from="1726922451750" duration="6694000" />
-      <workItem from="1726949565755" duration="2825000" />
+      <workItem from="1726949565755" duration="5144000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1726912825165</created>
@@ -111,18 +124,43 @@
       <option name="project" value="LOCAL" />
       <updated>1726931060585</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="4.interface_segregation done! + refacetor package-info">
+      <created>1726954025982</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1726954025982</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="init" />
     <MESSAGE value="1. Single responsibility done" />
     <MESSAGE value="2. Open/Closed done" />
     <MESSAGE value="3. Liskov Substitution done!" />
-    <option name="LAST_COMMIT_MESSAGE" value="3. Liskov Substitution done!" />
+    <MESSAGE value="4.interface_segregation done! + refacetor package-info" />
+    <option name="LAST_COMMIT_MESSAGE" value="4.interface_segregation done! + refacetor package-info" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hunglp/dependency_inversion/good/Child2.java</url>
+          <line>3</line>
+          <properties class="com.hunglp.dependency_inversion.good.Child2" method="foo">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

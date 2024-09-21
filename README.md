@@ -17,3 +17,8 @@
 
 # 4. Interface Segregation
 - Chia interface to thành nhiều interface nhỏ hơn
+
+# 5. Dependency Inversion 
+- Đảo ngược sự phụ thuộc
+- Thay vì : module cha phụ thuộc trực tiếp vào module con
+- Thì : Phụ thuộc vào abstractClass hoặc Interface
