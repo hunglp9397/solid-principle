@@ -11,3 +11,6 @@
 # 2. Open/Closed
 - Được phép mở rộng 1 class/interface
 - Không được thay đổi logic class/interface cũ
+
+# 3. Liskov Substitution
+- Class con phải code sao cho có thể thay thế được class cha

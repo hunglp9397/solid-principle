@@ -4,16 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fcfdafdb-759d-4e7b-8195-7f65025dc62d" name="Changes" comment="1. Single responsibility done">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunglp/open_closed/bad/Addition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunglp/open_closed/bad/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunglp/open_closed/bad/CalculatorOperation_Bad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunglp/open_closed/bad/Subtraction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunglp/open_closed/good/Addition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunglp/open_closed/good/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunglp/open_closed/good/CalculatorOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunglp/open_closed/good/Division.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunglp/open_closed/good/Subtraction.java" afterDir="false" />
+    <list default="true" id="fcfdafdb-759d-4e7b-8195-7f65025dc62d" name="Changes" comment="2. Open/Closed done">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunglp/liskov_subtitution/bad/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunglp/liskov_subtitution/bad/ElectricCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunglp/liskov_subtitution/bad/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunglp/liskov_subtitution/bad/PetrolCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunglp/liskov_subtitution/bad/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunglp/liskov_subtitution/good/AbstractCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunglp/liskov_subtitution/good/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunglp/liskov_subtitution/good/ElectricCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunglp/liskov_subtitution/good/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunglp/liskov_subtitution/good/PetrolCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunglp/liskov_subtitution/good/package-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -27,6 +29,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="package-info" />
       </list>
     </option>
   </component>
@@ -37,7 +40,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2mNM9c4iBHbustqtCJVS5jexrjn" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -72,7 +77,7 @@
       <option name="presentableId" value="Default" />
       <updated>1726912431866</updated>
       <workItem from="1726912432973" duration="989000" />
-      <workItem from="1726922451750" duration="3359000" />
+      <workItem from="1726922451750" duration="6054000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1726912825165</created>
@@ -88,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1726923880745</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2. Open/Closed done">
+      <created>1726925843754</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1726925843754</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,7 +109,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="1. Single responsibility done" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. Single responsibility done" />
+    <MESSAGE value="2. Open/Closed done" />
+    <option name="LAST_COMMIT_MESSAGE" value="2. Open/Closed done" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
