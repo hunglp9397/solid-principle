@@ -13,4 +13,7 @@
 - Không được thay đổi logic class/interface cũ
 
 # 3. Liskov Substitution
-- Class con phải code sao cho có thể thay thế được class cha
+- Class con phải code sao cho có thể thay thế/đảm nhiệm các chức năng của class cha
+
+# 4. Interface Segregation
+- Chia interface to thành nhiều interface nhỏ hơn
